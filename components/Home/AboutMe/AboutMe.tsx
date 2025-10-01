@@ -91,15 +91,20 @@ export default function AboutMe(props) {
             </div>
           </div>
           {/* // ? Image in Desktop and Tablet */}
-          <div className="group relative lg:w-96 lg:h-96 md:w-72 md:h-72 md:block hidden ">
-            <div
-              className="group-hover:translate-x-3 group-hover:translate-y-3
-               duration-300 absolute w-5/6 h-5/6 border-2 border-AAsecondary translate-x-5 
-               translate-y-5 rounded"
-            ></div>
-
-           
-          </div>
+       <div className="group relative lg:w-96 lg:h-96 md:w-72 md:h-72 md:block hidden">
+        {/* Border div (unchanged) */}
+        <div
+          className="group-hover:translate-x-3 group-hover:translate-y-3
+          duration-300 absolute w-5/6 h-5/6 border-2 border-AAsecondary translate-x-5 
+          translate-y-5 rounded"
+        ></div>
+        {/* Image with matching dimensions */}
+        <img
+          src="/main.png" // Replace with your image path
+          alt="Portfolio image"
+          className="w-full h-full object-cover rounded"
+        />
+      </div>
           {/* // ?Image in Mobile */}
          
         </div>
