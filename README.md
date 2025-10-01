@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ---
 ## Description
@@ -10,3 +11,6 @@ Why tailwindcss? Because TailwindCSS is a framework which reduces a lot of styli
 
 
 
+=======
+# my-portfolio
+>>>>>>> 6fb208e7838f8bd7fd23c940133c0bfccfde4d99
